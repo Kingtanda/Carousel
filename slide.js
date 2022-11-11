@@ -21,3 +21,13 @@ function showSlides(n) {
 slides[slideIndex-1].style.display ="block";
 dots [slideIndex-1] .className +="active";
 }
+let y = document.querySelector(".mySlides")
+y.addEventListener("mouseenter", show);
+function show() {
+    document.querySelector(".prev") .style.display="inline";
+    document.querySelector(".next") .style.display="inline";
+}
+y.addEventListener("mouseleave", function () {
+    document.querySelector(".prev") .style.display="none";
+    document.querySelector(".next") .style.display="none";
+})
