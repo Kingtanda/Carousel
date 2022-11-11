@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carousel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mySlides">
+        <div class="slide fade">
+            <img src="Slide 1.jpg" alt="fine dining">
+        </div>
+        <div class="slide fade">
+            <img src="Slide 2.jpg" alt="pasta and pizza">
+
+        </div>
+        <div class="slide fade">
+            <img src="Slide 3.jpg" alt="seafood peppersoup">
+
+        </div>
+        <div class="slide fade">
+            <img src="Slide 4.jpg" alt="steak poached egg">
+
+        </div>
+        <div class="slide fade">
+            <img src="Slide 5.jpg" alt="pasta">
+
+        </div>
+        <div class="slide fade">
+            <img src="Slide 6.jpg" alt="stacked pancakes">
+
+        </div>
+        <a class="prev" onclick="plusSlides(-1)"> &#8592;
+        </a>
+        <a class="next" onclick="plusSlides(1)"> &#8594; </a>
+        <br>
+
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+
+    </div>
+    <script src="./slide.js"></script>
+</body>
+
+</html>
